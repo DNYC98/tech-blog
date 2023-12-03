@@ -7,6 +7,7 @@ const {
 } = require('../models');
 
 
+
 router.get('/', (req, res) => {
     Post.findAll({
             attributes: [
